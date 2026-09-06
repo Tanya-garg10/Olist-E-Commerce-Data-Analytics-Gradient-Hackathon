@@ -1,7 +1,7 @@
 # Data files (too large for git)
 data/*.csv
-data/*.xlsx
 data/*.zip
+# Note: olist_dataset.xlsx is tracked intentionally
 
 # Python
 __pycache__/
