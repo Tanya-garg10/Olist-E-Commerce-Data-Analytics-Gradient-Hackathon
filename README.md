@@ -1,14 +1,10 @@
 # 🛒 Olist Brazilian E-Commerce: Business Analytics
 
 > **Gradient Learnings Data Analytics Hackathon**  
-> Team: Hackangers | September 2026
-
----
+> Team: Hackangers
 
 ## 📌 Project Title
 **Decoding Customer Experience on Brazil's Largest E-Commerce Marketplace**
-
----
 
 ## 🏢 Problem Statement
 
@@ -20,8 +16,6 @@ The core questions:
 - Which geographies, sellers, and categories carry the most risk?
 - What practical actions should Olist take?
 
----
-
 ## 🎯 Business Objective
 
 Analyze the Olist public e-commerce dataset to:
@@ -29,8 +23,6 @@ Analyze the Olist public e-commerce dataset to:
 2. Identify the primary drivers of low customer satisfaction
 3. Surface geographic, seller, and category-level performance patterns
 4. Deliver ranked, evidence-backed business recommendations
-
----
 
 ## 📦 Dataset
 
@@ -48,8 +40,6 @@ Analyze the Olist public e-commerce dataset to:
 | `olist_geolocation_dataset.csv` | Zip code coordinates | 1,000,163 |
 | `product_category_name_translation.csv` | PT→EN category names | 71 |
 
----
-
 ## ❓ Key Business Questions
 
 1. Is the marketplace growing? Where are the inflection points?
@@ -59,8 +49,6 @@ Analyze the Olist public e-commerce dataset to:
 5. Which product categories are dragging down ratings?
 6. What factors are most strongly associated with 1–2 star reviews?
 7. What can Olist do to measurably improve customer experience?
-
----
 
 ## 🔬 Methodology
 
@@ -76,8 +64,6 @@ Key principles:
 - Statistical rigor: group comparisons, distributions, effect sizes
 - Business language used throughout (not statistical jargon)
 
----
-
 ## 🔑 Key Insights (Real Numbers)
 
 | # | Insight | Evidence |
@@ -89,8 +75,6 @@ Key principles:
 | 5 | Office furniture has worst satisfaction | Avg score **3.48 / 5** (platform avg: 4.07) |
 | 6 | Low-review orders pay more for freight | Avg R$27.74 vs R$22.04 (26% premium) |
 | 7 | Credit card dominates at 76.1% share | Avg order value R$166.57 with avg 3.5 installments |
-
----
 
 ## 💡 Business Recommendations
 
@@ -105,8 +89,6 @@ Key principles:
 | 🟡 #7 | Geographically Optimized Seller Onboarding |
 | 🟡 #8 | Automatic Compensation for Late Deliveries |
 
----
-
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3.10+
@@ -114,8 +96,6 @@ Key principles:
 - **Visualization:** matplotlib
 - **Notebook:** Google Colab / Jupyter
 - **Version Control:** Git / GitHub
-
----
 
 ## 📁 Project Structure
 
@@ -149,8 +129,6 @@ olist-data-analytics/
         └── 10_executive_dashboard.png
 ```
 
----
-
 ## ▶️ How to Run
 
 ### Option A: Google Colab (Recommended)
@@ -176,27 +154,6 @@ jupyter notebook notebooks/Olist_Data_Analytics.ipynb
 - Download the dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - Place in `data/` directory or update `DATA_FILE` path in the notebook
 - The notebook reads from a single consolidated Excel file with all 9 sheets
-
----
-
-## 👥 Team Information
-
-**Team Name:** Hackangers  
-**Hackathon:** Gradient Learnings Data Analytics Hackathon  
-**Date:** September 2026
-
----
-
-## 🤖 AI Usage Disclosure
-
-This project used AI assistance (Kiro / Claude) for:
-- Notebook structure planning and section organization
-- Code scaffolding and chart formatting
-- Report and README drafting
-
-**All numerical findings were calculated directly from the actual dataset.** No results were fabricated or assumed. All business interpretations and recommendations reflect analysis of real data.
-
----
 
 ## 📄 License
 
